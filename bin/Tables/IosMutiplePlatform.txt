@@ -1,0 +1,32 @@
+﻿INT	STRING	STRING	INT	INT	INT	INT	INT	INT	STRING	STRING
+ID	渠道名	显示名称	Red	Green	Blue	PosX	PosY	Job	渠道ID	包名
+1	zszz	诸神之争	255	198	177	20	94	0		com.sqey.zszz.22sy
+2	lhjx	龙魂觉醒	232	223	150	27	75	1		com.stky.lhjx.26cv
+3	myqj	玛雅奇迹	139	164	255	35	53	2		com.tyfs.myqj.88yo
+4	hydxc	魂与地下城	183	255	117	44	78	0		com.swxy.hydxc.76ge
+5	csts	创世天使	132	122	255	53	87	1		com.seey.csts.6zzy
+6	juezhanqiji	决战奇迹	0	0	255	75	94	2		
+7	wangzheqiji	王者奇迹	0	0	255	53	102	0		
+8	qijirongyao	奇迹荣耀	0	0	255	43	109	1		
+9	zhanshenchuanshuo	战神传说	0	0	255	35	132	2		
+10	qijichuanshuo	奇迹传说	0	0	255	26	110	0		
+11	chuanqizhange	传奇战歌	0	0	255	21	104	1		
+12	zhangejiyuan	战歌纪元	0	0	255	21	83	2		
+13	mieshimozhou	灭世魔咒	0	0	255	30	93	0		
+14	mingyunchilun	命运齿轮	0	0	255	35	76	1		
+15	shenzhiqiyuan	神之起源	0	0	255	35	64	2		
+16	mingyunzhange	命运战歌	0	0	255	64	93	0		
+17	qijiqiyuan	奇迹起源	0	0	255	35	121	1		
+18	mingyunqiyuan	命运起源	0	0	255	36	106	2		
+19	qijibiannianshi	奇迹编年史	0	0	255	28	103	0		
+20	mingyunxingdong	命运行动	0	0	255	29	84	1		
+21	mingyunzhizheng	命运之争	0	0	255	87	124	2		
+22	shenzhiwuyu	神之物语	0	0	255	55	38	0		
+23	cangqiongzhange	苍穹战歌	0	0	255	24	38	1		
+24	zhushenzhizheng	诸神之争	0	0	255	50	80	2		
+25	qijizhengba	奇迹争霸	0	0	255	48	104	0		
+26	wujinzhange	无尽战歌	0	0	255	60	117	1		
+27	qijiwushuang	奇迹无双	0	0	255	18	115	2		
+28	wushuangchuanqi	无双传奇	0	0	255	14	94	0		
+29	bumiezhange	不灭战歌	0	0	255	20	74	1		
+30	chuanqijiyuan	传奇纪元	0	0	255	60	82	2		

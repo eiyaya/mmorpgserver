@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<nlog xmlns="http://www.nlog-project.org/schemas/NLog.xsd"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <targets>
+    <!-- add your targets here -->
+    <target xsi:type="File" name="logviewer" fileName="${basedir}/../logs/Directory.log"
+            layout="${longdate} ${uppercase:${level}} ${message} ${onexception:${exception:format=tostring} ${newline} ${stacktrace} ${newline}" encoding="UTF-8"/>
+  </targets>
+  <rules>
+    <!-- add your logging rules here -->
+    <logger name="*.*" minlevel="Warn" writeTo="logviewer"/>
+  </rules>
+</nlog>

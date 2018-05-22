@@ -1,0 +1,16 @@
+Redis数据库
+
+1、关服
+
+2、redis保存，端口根据配置
+redis-cli -p 6380 save
+
+3、备份当前数据库
+//backup dump.rdb
+
+4、清库
+redis-cli -p 6380 flushall
+
+5、清MySql数据库（根据需求，一般不需要清，但要注意gift_code和oldplayer表）
+
+6、开服

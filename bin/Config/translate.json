@@ -1,0 +1,330 @@
+{
+	"Result":
+	[
+		{"Value":"0", "Desc":"失败"},
+		{"Value":"1", "Desc":"成功"}
+	],
+
+	"AddItemReason":
+	[
+		{"Value":"-1", "Desc":"未知"},
+		{"Value":"0", "Desc":"初始化"},
+		{"Value":"1", "Desc":"拾取掉落"},
+		{"Value":"2", "Desc":"收邮件"},
+		{"Value":"3", "Desc":"商店购买"},
+		{"Value":"4", "Desc":"出售"},
+		{"Value":"5", "Desc":"回收"},
+		{"Value":"6", "Desc":"使用礼包"},
+		{"Value":"7", "Desc":"碎片合成"},
+		{"Value":"8", "Desc":"农场收获"},
+		{"Value":"9", "Desc":"孵化室查收"},
+		{"Value":"10", "Desc":"航海查收；"},
+		{"Value":"11", "Desc":"铁匠铺合成"},
+		{"Value":"12", "Desc":"矿洞收获"},
+		{"Value":"13", "Desc":"随从任务完成"},
+		{"Value":"14", "Desc":"随从任务提交"},
+		{"Value":"15", "Desc":"回收装备"},
+		{"Value":"16", "Desc":"道具合成"},
+		{"Value":"17", "Desc":"固定礼包"},
+		{"Value":"18", "Desc":"在线时长"},
+		{"Value":"19", "Desc":"等级奖励"},
+		{"Value":"20", "Desc":"连续登陆"},
+		{"Value":"21", "Desc":"签到"},
+		{"Value":"22", "Desc":"补签"},
+		{"Value":"23", "Desc":"活跃奖励"},
+		{"Value":"24", "Desc":"1v1天梯胜利"},
+		{"Value":"25", "Desc":"1v1天梯失败"},
+		{"Value":"26", "Desc":"成就奖励"},
+		{"Value":"27", "Desc":"提交任务"},
+		{"Value":"28", "Desc":"任务激活掉落"},
+		{"Value":"29", "Desc":"交易所购买"},
+		{"Value":"30", "Desc":"交易所取消"},
+		{"Value":"31", "Desc":"抽奖"},
+		{"Value":"32", "Desc":"抽宠物蛋"},
+		{"Value":"33", "Desc":"许愿池抽奖"},
+		{"Value":"34", "Desc":"战场奖励"},
+		{"Value":"35", "Desc":"扫荡副本"},
+		{"Value":"36", "Desc":"家园任务奖励"},
+		{"Value":"37", "Desc":"精灵分解"},
+		{"Value":"38", "Desc":"激活图鉴"},
+		{"Value":"39", "Desc":"捐献成功"},
+		{"Value":"40", "Desc":"崇拜奖励"},
+		{"Value":"41", "Desc":"进阶装备"},
+		{"Value":"42", "Desc":"交易所收获"},
+		{"Value":"43", "Desc":"交易所兑换"},
+		{"Value":"44", "Desc":"占星台抽奖"},
+		{"Value":"45", "Desc":"副本奖励"},
+		{"Value":"46", "Desc":"伐木场"},
+		{"Value":"47", "Desc":"角斗圣殿"},
+		{"Value":"48", "Desc":"精灵抽奖"},
+		{"Value":"49", "Desc":"退还副本材料"},
+		{"Value":"50", "Desc":"藏宝图"},
+		{"Value":"51", "Desc":"魂魄兑换"},
+		{"Value":"52", "Desc":"答题奖励"},
+		{"Value":"53", "Desc":"领取补偿"},
+		{"Value":"54", "Desc":"充值"},
+		{"Value":"55", "Desc":"到达Vip级别的奖励"},
+		{"Value":"56", "Desc":"VIP礼包"},
+		{"Value":"57", "Desc":"月卡"},
+		{"Value":"58", "Desc":"七日奖励"},
+		{"Value":"59", "Desc":"累计充值奖励"},
+		{"Value":"60", "Desc":"投资奖励"},
+		{"Value":"61", "Desc":"分享奖励"},
+		{"Value":"62", "Desc":"膜拜城主"},
+		{"Value":"63", "Desc":"礼品码"},
+		{"Value":"64", "Desc":"新服活动"},
+		{"Value":"99", "Desc":"GM"}
+	],
+
+	"DelItemReason":
+	[
+		{"Value":"-1", "Desc":"未知"},
+		{"Value":"0", "Desc":"商店购买"},
+		{"Value":"1", "Desc":"交易所购买广播"},
+		{"Value":"2", "Desc":"洗天赋"},
+		{"Value":"3", "Desc":"买包裹格子"},
+		{"Value":"4", "Desc":"铸造"},
+		{"Value":"5", "Desc":"进阶装备"},
+		{"Value":"6", "Desc":"创造战盟"},
+		{"Value":"7", "Desc":"刷新家园任务"},
+		{"Value":"8", "Desc":"交易所购买"},
+		{"Value":"9", "Desc":"翅膀进阶"},
+		{"Value":"10", "Desc":"道具合成"},
+		{"Value":"11", "Desc":"装备强化"},
+		{"Value":"12", "Desc":"翅膀培养"},
+		{"Value":"13", "Desc":"激活图鉴"},
+		{"Value":"14", "Desc":"装备追加"},
+		{"Value":"15", "Desc":"补签"},
+		{"Value":"16", "Desc":"升级技能"},
+		{"Value":"17", "Desc":"洗炼装备"},
+		{"Value":"18", "Desc":"重置天赋"},
+		{"Value":"19", "Desc":"装备洗灵魂属性"},
+		{"Value":"20", "Desc":"装备传承"},
+		{"Value":"21", "Desc":"提交任务"},
+		{"Value":"22", "Desc":"聊天消耗"},
+		{"Value":"23", "Desc":"碎片合成"},
+		{"Value":"24", "Desc":"农场种植"},
+		{"Value":"25", "Desc":"农场施肥"},
+		{"Value":"26", "Desc":"孵化室孵化"},
+		{"Value":"27", "Desc":"许愿池抽奖"},
+		{"Value":"28", "Desc":"购买副本次数"},
+		{"Value":"29", "Desc":"建造建筑"},
+		{"Value":"30", "Desc":"升级建筑"},
+		{"Value":"31", "Desc":"进入副本"},
+		{"Value":"32", "Desc":"家园任务"},
+		{"Value":"33", "Desc":"修理"},
+		{"Value":"34", "Desc":"孵化加速"},
+		{"Value":"35", "Desc":"勇士港加速"},
+		{"Value":"36", "Desc":"加速建筑"},
+		{"Value":"37", "Desc":"阵法强化"},
+		{"Value":"38", "Desc":"购买天梯次数"},
+		{"Value":"39", "Desc":"精灵强化"},
+		{"Value":"40", "Desc":"购买天梯CD"},
+		{"Value":"41", "Desc":"勋章升级"},
+		{"Value":"42", "Desc":"放入交易所"},
+		{"Value":"43", "Desc":"出售"},
+		{"Value":"44", "Desc":"回收"},
+		{"Value":"45", "Desc":"使用道具"},
+		{"Value":"46", "Desc":"占星升级"},
+		{"Value":"47", "Desc":"精灵分解"},
+		{"Value":"48", "Desc":"回收装备"},
+		{"Value":"49", "Desc":"交易所兑换"},
+		{"Value":"50", "Desc":"交易所刷新"},
+		{"Value":"51", "Desc":"占星台抽奖"},
+		{"Value":"52", "Desc":"给随从吃经验"},
+		{"Value":"53", "Desc":"转生消耗"},
+		{"Value":"54", "Desc":"经验翻倍消耗"},
+		{"Value":"55", "Desc":"竞技场神像经验"},
+		{"Value":"56", "Desc":"升级军衔"},
+		{"Value":"57", "Desc":"精灵抽奖"},
+		{"Value":"58", "Desc":"摧毁建筑"},
+		{"Value":"59", "Desc":"答题"},
+		{"Value":"60", "Desc":"领取补偿"},
+		{"Value":"61", "Desc":"竞技场神像冷却"},
+		{"Value":"62", "Desc":"升级战盟Buff"},
+		{"Value":"63", "Desc":"投资"},
+		{"Value":"64", "Desc":"膜拜城主"},
+		{"Value":"99", "Desc":"GM"}
+	],
+
+	"TaskAddReason":
+	[
+		{"Value":"0", "Desc":"自动获得"},
+		{"Value":"1", "Desc":"主动接取"}
+	],
+
+	"TaskDelReason":
+	[
+		{"Value":"0", "Desc":"放弃"},
+		{"Value":"1", "Desc":"完成"}
+	],
+
+	"Operations":
+	[
+		{
+			"Code":"ia",
+			"Name":"物品增加:",
+			"Args":
+			[
+				{"Format":"道具[{0}],", "Code":"Item.Name"},
+				{"Format":"增加[{0}]个,", "Code":"Count"},
+				{"Format":"原因[{0}]", "Code":"AddItemReason"}
+			]
+		},
+		{
+			"Code":"id",
+			"Name":"物品删除:",
+			"Args":
+			[
+				{"Format":"道具[{0}],", "Code":"Item.Name"},
+				{"Format":"减少[{0}]个,", "Code":"Count"},
+				{"Format":"原因[{0}]", "Code":"DelItemReason"}
+			]
+		},
+		{
+			"Code":"ra",
+			"Name":"资源添加:",
+			"Args":
+			[
+				{"Format":"资源[{0}],", "Code":"Item.Name"},
+				{"Format":"增加[{0}],", "Code":"Count"},
+				{"Format":"数量[{0}],", "Code":"Count"},
+				{"Format":"原因[{0}]", "Code":"AddItemReason"}
+			]
+		},
+		{
+			"Code":"rd",
+			"Name":"资源删除:",
+			"Args":
+			[
+				{"Format":"资源[{0}],", "Code":"Item.Name"},
+				{"Format":"减少[{0}],", "Code":"Count"},
+				{"Format":"数量[{0}],", "Code":"Count"},
+				{"Format":"原因[{0}]", "Code":"DelItemReason"}
+			]
+		},
+		{
+			"Code":"re",
+			"Name":"资源删除时,资源并不够而归0:",
+			"Args":
+			[
+				{"Format":"资源[{0}],", "Code":"Item.Name"},
+				{"Format":"减少[{0}],", "Code":"Count"},
+				{"Format":"原因[{0}]", "Code":"DelItemReason"}
+			]
+		},
+
+		{
+			"Code":"ea",
+			"Name":"装备强化:",
+			"Args":
+			[
+				{"Format":"装备[{0}],", "Code":"Item.Name"},
+				{"Format":"原等级[{0}],", "Code":"Count"},
+				{"Format":"结果[{0}],", "Code":"Result"},
+				{"Format":"新等级[{0}]", "Code":"Count"}
+			]
+		},
+		{
+			"Code":"eb",
+			"Name":"装备追加:",
+			"Args":
+			[
+				{"Format":"装备[{0}],", "Code":"Item.Name"},
+				{"Format":"原追加[{0}],", "Code":"Count"},
+				{"Format":"新追加[{0}]", "Code":"Count"}
+			]
+		},
+		{
+			"Code":"ec",
+			"Name":"装备洗炼:",
+			"Args":
+			[
+				{"Format":"装备[{0}],", "Code":"Item.Name"},
+				{"Format":"原卓越属性[{0}],", "Code":"Count"},
+				{"Format":"新卓越属性[{0}]", "Code":"Count"}
+			]
+		},
+		{
+			"Code":"ed",
+			"Name":"装备随灵:",
+			"Args":
+			[
+				{"Format":"装备[{0}],", "Code":"Item.Name"},
+				{"Format":"原灵魂属性[{0}],", "Code":"Count"},
+				{"Format":"新灵魂属性[{0}]", "Code":"Count"}
+			]
+		},
+		{
+			"Code":"ee",
+			"Name":"装备传承:",
+			"Args":
+			[
+				{"Format":"原装备[{0}],", "Code":"Item.Name"},
+				{"Format":"新装备[{0}]", "Code":"Item.Name"}
+			]
+		},
+
+		{
+			"Code":"fe",
+			"Name":"标记位修改:",
+			"Args":
+			[
+				{"Format":"标记位[{0}],", "Code":"Count"},
+				{"Format":"新值[{0}],", "Code":"Count"}
+			]
+		},
+
+		{
+			"Code":"lo",
+			"Name":"上线",
+			"Args":
+			[
+			]
+		},
+		{
+			"Code":"ld",
+			"Name":"下线",
+			"Args":
+			[
+			]
+		},
+		{
+			"Code":"lf",
+			"Name":"每日第一次上线",
+			"Args":
+			[
+			]
+		},
+
+		{
+			"Code":"ma",
+			"Name":"任务增加:",
+			"Args":
+			[
+				{"Format":"[{0}],", "Code":"Mission.Name"},
+				{"Format":"原因[{0}],", "Code":"TaskAddReason"}
+			]
+		},
+		{
+			"Code":"md",
+			"Name":"任务减少:",
+			"Args":
+			[
+				{"Format":"[{0}],", "Code":"Mission.Name"},
+				{"Format":"原因[{0}],", "Code":"TaskDelReason"}
+			]
+		},
+
+		{
+			"Code":"xe",
+			"Name":"扩展数据修改:",
+			"Args":
+			[
+				{"Format":"Id[{0}],", "Code":"Count"},
+				{"Format":"旧值[{0}],", "Code":"Count"},
+				{"Format":"新值[{0}],", "Code":"Count"}
+			]
+		}
+	]
+}

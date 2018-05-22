@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Metrics.NET.InfluxDB</name>
+    </assembly>
+    <members>
+        <member name="T:Metrics.NET.InfluxDB.ConfigExtensions">
+            <summary>
+            Configure Metrics.NET to report data to InfluxDB 0.9+
+            </summary>
+        </member>
+        <member name="M:Metrics.NET.InfluxDB.ConfigExtensions.WithInflux(Metrics.Reports.MetricsReports,System.String,System.Int32,System.String,System.String,System.String,System.TimeSpan,Metrics.NET.InfluxDB.ConfigOptions)">
+            <summary>
+            Push metrics into InfluxDB 0.9+
+            </summary>
+        </member>
+        <member name="M:Metrics.NET.InfluxDB.ConfigExtensions.WithInflux(Metrics.Reports.MetricsReports,System.Uri,System.String,System.String,System.TimeSpan,Metrics.NET.InfluxDB.ConfigOptions)">
+            <summary>
+            Push metrics into InfluxDB 0.9+
+            </summary>
+        </member>
+        <member name="T:Metrics.NET.InfluxDB.ConfigOptions">
+            <summary>
+            Additional configuration options
+            </summary>
+        </member>
+        <member name="P:Metrics.NET.InfluxDB.ConfigOptions.UseHttps">
+            <summary>
+            Set whether or not to use SSL when posting data to InfluxDB
+            </summary>
+            <value><c>true</c> if use https; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Metrics.NET.InfluxDB.ConfigOptions.RetentionPolicy">
+            <summary>
+            Set the target retention policy for the write
+            </summary>
+            <value>The retention policy.</value>
+        </member>
+        <member name="P:Metrics.NET.InfluxDB.ConfigOptions.Consistency">
+            <summary>
+            Set the number of nodes that must confirm the write
+            </summary>
+            <value>One of: one,quorum,all,any</value>
+        </member>
+        <member name="P:Metrics.NET.InfluxDB.ConfigOptions.BreakerRate">
+            <summary>
+            Specify the acceptable error rate before a curcuit is 
+            tripped which will temporarily prevent writing data to 
+            InfluxDB, in the form of: EventCount / TimeSpan, eg: 3 / 00:00:30
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Metrics.NET.InfluxDB.ConfigOptions.HttpTimeoutMillis">
+            <summary>
+            Gets or sets the http timeout in milliseconds
+            </summary>
+            <value>The http timeout.</value>
+        </member>
+        <member name="M:Metrics.NET.InfluxDB.ConfigOptions.#ctor">
+            <summary>
+            Instantiate a new config object
+            </summary>
+        </member>
+        <member name="M:Metrics.NET.InfluxDB.InfluxDbRecord.StringifyValue(System.Object)">
+            <summary>
+            Return the value as an InfluxDB-parseable string. 
+            See: https://docs.influxdata.com/influxdb/v0.9/write_protocols/line/
+            </summary>
+            <param name="val">InfluxDB value</param>
+        </member>
+        <member name="M:Metrics.NET.InfluxDB.Rate.#ctor(System.String)">
+            <summary>
+            Rate specification in the form of: <code>events / timeframe</code>
+            </summary>
+        </member>
+    </members>
+</doc>

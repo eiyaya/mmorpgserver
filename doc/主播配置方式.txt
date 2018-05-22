@@ -1,0 +1,35 @@
+1、打开Server/Config/anchor.config
+
+2、配置
+//是否开启主播功能
+Open:true
+
+//全服主播名字前缀，
+ServerName:"uborm",
+
+//配置主播角色名字和时间
+Anchors:
+[
+    {
+        Name: "仙女英格丽德",
+        BeginTime: "3:00:00",
+        EndTime: "23:59:00"
+    },
+    {
+        Name: "Yana娅",
+        BeginTime: "3:00:00",
+        EndTime: "23:59:00"
+    },
+    {
+        Name: "Blue",
+        BeginTime: "3:00:00",
+        EndTime: "23:59:00"
+    }
+],
+
+//帮派频道发言权限等级
+GuildSpeekLevel:2
+
+3、热更配置
+scorpion账号登录
+GM命令输入!!UpdateAnchor

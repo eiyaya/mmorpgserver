@@ -1,0 +1,6 @@
+﻿INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT
+索引ID	商品显示列表ID	商品ID1(skillUpgrading)	ID1数量	所属组ID(同组随1个按职业显示)	商品ID2	ID2数量	所属组ID	商品ID3	ID3数量	所属组ID	商品ID4	ID4数量	所属组ID	商品ID5	ID5数量	所属组ID	商品ID6	ID6数量	所属组ID	商品ID7	ID7数量	所属组ID	商品ID8	ID8数量	所属组ID	商品ID9	ID9数量	所属组ID	商品ID10	ID10数量	所属组ID
+0	0	701	2	-1	702	1	1	703	1	1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+1	1	705	2	-1	706	1	-1	707	1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+2	2	709	2	-1	710	1	1	711	1	2	712	1	2	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+3	3	715	1	-1	710	2	1	718	2	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1

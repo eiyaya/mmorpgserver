@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>protobuf-net.Enyim</name>
+    </assembly>
+    <members>
+        <member name="T:ProtoBuf.Caching.ByteSegmentComparer">
+            <summary>
+            A comparer (for dictionary use) that can compare segments of buffers; the
+            intent being to avoid having to encode/decode strings
+            </summary>
+            <remarks>It is the responsibility of the consuming code not to mutate
+            the byte[] in a dictionary</remarks>
+        </member>
+        <member name="T:ProtoBuf.Caching.Enyim.NetTranscoder">
+            <summary>
+            Acts as a transcoder compatible with the "enyim" client, swapping
+            BinaryFormatter for protobuf-net's Serializer
+            </summary>
+        </member>
+        <member name="M:ProtoBuf.Caching.Enyim.NetTranscoder.#ctor">
+            <summary>
+            Create a new instance of NetTranscoder using the default model
+            </summary>
+        </member>
+        <member name="M:ProtoBuf.Caching.Enyim.NetTranscoder.#ctor(ProtoBuf.Meta.TypeModel)">
+            <summary>
+            Create a new instance of NetTranscoder using the specified model (or the default model if null)
+            </summary>
+        </member>
+        <member name="P:ProtoBuf.Caching.Enyim.NetTranscoder.Serialized">
+            <summary>
+            The number of protobuf serializations performed by the transcoder
+            </summary>
+        </member>
+        <member name="P:ProtoBuf.Caching.Enyim.NetTranscoder.Deserialized">
+            <summary>
+            The number of protobuf deserializations performed by the transcoder
+            </summary>
+        </member>
+    </members>
+</doc>

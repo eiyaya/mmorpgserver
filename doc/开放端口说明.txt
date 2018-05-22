@@ -1,0 +1,8 @@
+﻿机器名称	开放端口			入站规则	端口类型	用途描述
+GameServer1	18001~18002			in		tcp		游戏端口
+GameServer2	18001~18002			in		tcp		游戏端口
+GameServer1	9994				in		tcp		支付回掉
+GameServer1	20010				in		http		GM命令
+Statistic	3000				in		http		服务器监控
+Statistic	80				in		http		Web统计后台
+Statistic	3306				in		tcp		Web统计后台数据库

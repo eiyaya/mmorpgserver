@@ -1,0 +1,5 @@
+﻿INT	INT	STRING	STRING	STRING	STRING	INT	INT	INT	STRING	STRING	STRING	STRING
+ID	首充现实货币数	职业1奖励道具	职业2奖励道具	职业3奖励道具	预留	客户端标签显示文字	分档描述	标记位	职业1奖励模型路径	职业2奖励模型路径	职业3奖励模型路径	首冲奖励公告
+1	1	450000*1|22001*5|22000*10|22003*10|24513*1	450001*1|22001*5|22000*10|22003*10|24513*1	450002*1|22001*5|22000*10|22003*10|24513*1		100002000	100002100	3000	Model/ZhanShi/Weapen/WQ_DaJian03_Show.prefab	Model/FaShi/Weapen/WQ_ChangZhang03_Show.prefab	Model/GongShou/Weapen/WQ_GongJian03_Show.prefab	恭喜玩家{0}获得首充礼包，橙武在手，天下我有！
+2	30	450003*1|450004*1|450005*1|450006*1|450007*1	450008*1|450009*1|450010*1|450011*1|450012*1	450013*1|450014*1|450015*1|450016*1|450017*1		100002001	100002101	3001	Model/Npc/ZS03_07_Show.prefab	Model/Npc/FS03_07_Show.prefab	Model/Npc/GS03_07_Show.prefab	恭喜玩家{0}获得神装大礼，十步杀一人，千里不留行！
+3	98	15014*1|22055*1|22007*1|22054*1|24515*1	15014*1|22055*1|22007*1|22054*1|24515*1	15014*1|22055*1|22007*1|22054*1|24515*1		100002002	100002102	3002	Model/Mount/ZQ_TuoNiao.prefab	Model/Mount/ZQ_TuoNiao.prefab	Model/Mount/ZQ_TuoNiao.prefab	恭喜玩家{0}获得坐骑大礼，骁腾有如此，万里可横行！

@@ -1,0 +1,10 @@
+﻿{
+	Id: 1,
+	Port: 10085,
+	ServiceName: "Login",
+	Servers: [{
+		Id: 1, 
+		Ip: "127.0.0.1",
+		Port: 1230
+	}]
+}

@@ -1,0 +1,11 @@
+﻿INT	INT	STRING	INT	INT	STRING	STRING	INT
+ID	服务器ID	服务器名称表	当日累计充值数量	当月累计充值数量	客服头像	客服QQ	是否显示图标
+1	1	封测一服	1000	3000	http://lhxz-res.hz.37.com.cn/xiaojiejie/xiaojiejie02.png	3002176355	1
+2	2	封测二服	1000	3000	http://lhxz-res.hz.37.com.cn/xiaojiejie/xiaojiejie02.png	3002176355	1
+3	3		1000	3000	http://lhxz-res.hz.37.com.cn/xiaojiejie/xiaojiejie02.png	3002176355	1
+4	4		1000	3000	http://lhxz-res.hz.37.com.cn/xiaojiejie/xiaojiejie02.png	3002176355	1
+5	5		1000	3000	http://lhxz-res.hz.37.com.cn/xiaojiejie/xiaojiejie02.png	3002176355	1
+6	6		1000	3000	http://lhxz-res.hz.37.com.cn/xiaojiejie/xiaojiejie02.png	3002176355	1
+7	7		1000	3000	http://lhxz-res.hz.37.com.cn/xiaojiejie/xiaojiejie02.png	3002176355	1
+8	8		1000	3000	http://lhxz-res.hz.37.com.cn/xiaojiejie/xiaojiejie02.png	3002176355	1
+9	9		1000	3000	http://lhxz-res.hz.37.com.cn/xiaojiejie/xiaojiejie02.png	3002176355	1

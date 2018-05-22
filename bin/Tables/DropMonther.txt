@@ -1,0 +1,4 @@
+INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT
+ID	惊喜掉落索引子表	惊喜掉落概率	扩展计数1ID	扩展计数1ID临界值	扩展计数掉落包（母表）	组1ID	概率	掉落子表1ID	掉落次数下限	掉落次数上限	组2ID	概率	掉落子表2ID	掉落次数下限	掉落次数上限	组3ID	概率	掉落子表3ID	掉落次数下限	掉落次数上限	组4ID	概率	掉落子表4ID	掉落次数下限	掉落次数上限	组5ID	概率	掉落子表5ID	掉落次数下限	掉落次数上限	组6ID	概率	掉落子表6ID	掉落次数下限	掉落次数上限	组7ID	概率	掉落子表7ID	掉落次数下限	掉落次数上限	组8ID	概率	掉落子表8ID	掉落次数下限	掉落次数上限	组9ID	概率	掉落子表9ID	掉落次数下限	掉落次数上限	组10ID	概率	掉落子表10ID	掉落次数下限	掉落次数上限
+0	-1	-1	2	10	1	1	10000	1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1
+1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1	-1

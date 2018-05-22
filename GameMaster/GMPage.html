@@ -1,0 +1,101 @@
+﻿<html>
+<head>
+	<title>test</title>
+</head>
+<body>
+	<style type="text/css">
+		#all {
+			color: #000000;
+			background: #ececec;
+			width: 300px;
+			height: 200px;
+		}
+
+		div {
+			line-height: 40px;
+			text-align: right;
+		}
+
+		input {
+			width: 400px;
+			height: 20px;
+		}
+
+		select {
+			padding: 5px 82px;
+		}
+	</style>
+	<label for="API">API:</label>
+	<p>
+		<input type="text" name="API" id="api" value="ReloadTable">
+		<button id="btn" style="height:50px;width:50px">click</button>
+	</p>
+
+
+	<label for="json">JSON:</label>
+	<p>
+		<textarea id="json" name="summary" rows="10" cols="80">{"TableName":"ServerName"} </textarea>
+	</p>
+
+	<label for="example1">Examples:API JSON</label>
+	<p>
+		<label>ReloadTable</label>
+		<label>{"TableName":"ServerName"}</label>
+	</p>
+	<p>
+		<label>GMCommand</label>
+		<label>{"CharacterId":"100009016","Command":"!!MissionCommit,250"}</label>
+	</p>
+	<p>
+		<label>GetPlayerDataByCharacterId</label>
+		<label>{"CharacterId":"100009016"}</label>
+	</p>
+	<p>
+		<label>GetPlayerDataByCharacterName</label>
+		<label>{"Name":"ABC"}</label>
+	</p>
+	<p>
+		<label>SendMailByName</label>
+		<label>{"Names": "Name1,Name2", "Time": 123, "Title": "title", "Content": "context", "Items": "2,100|3,200"}</label>
+	</p>
+	<p>
+		<label>ReloadOperationActivity</label>
+	</p>
+
+	<p>
+		<label>UpdateAnchor</label>
+	</p>
+	<p>
+		<label>GenGiftCode</label>
+		<label>{"Type": 1, "Count": 1000}</label>
+	</p>
+<p>
+	<label>CheckGiftCode</label>
+	<label>{"Code": "QWERTYUI"}</label>
+</p>
+	<p>
+		<label>GetFanKui</label>
+		<label>{"BeginTime": "2017-09-27 10:07:32","EndTime": "2017-10-27 10:07:32","StartIndex": 0,"EndIndex": 10,"State": 0}</label>
+	</p>
+	<p>
+		<label>ReloadAccountList</label>
+	</p>
+	
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript">
+		$("#btn").on("click", function () {
+			var api = $("#api").val()
+			$.ajax({
+				url: window.location.href + api,
+				type: "POST",
+				data: $("#json").val(),
+
+				success: function (res) {
+					alert(res);
+				}
+			})
+		})
+
+	</script>
+</body>
+</html>
